@@ -24,6 +24,12 @@ import team2 from "../assets/team-2.png";
 import team3 from "../assets/team-3.png";
 import testimonialBg from "../assets/testimonial-bg.png";
 import bgTech from "../assets/bg-tech.png";
+import ai1 from "../assets/1.svg";
+import ai2 from "../assets/2.svg";
+import ai3 from "../assets/3.svg";
+import ai4 from "../assets/4.svg";
+import ai5 from "../assets/5.svg";
+import ai6 from "../assets/6.svg";
 
 export const assets = {
   bgTech,
@@ -52,6 +58,12 @@ export const assets = {
   about3,
   about2,
   about1,
+  ai1,
+  ai2,
+  ai3,
+  ai4,
+  ai5,
+  ai6,
 };
 
 export const navLinks = [
