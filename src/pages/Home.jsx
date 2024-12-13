@@ -2,11 +2,12 @@ import React from "react";
 import Header from "../components/Header";
 import { RiCheckboxCircleFill } from "react-icons/ri";
 import { assets } from "../constent/constent";
+import Heading from "../components/Heading";
 const Home = () => {
   return (
     <div className="w-full">
       <Header />
-      <div className="container  mx-auto py-14 md:py-40 relative">
+      <div className="container  mx-auto py-14 md:py-34 relative">
         <div className="grid md:grid-cols-2 grid-cols-1 ">
           <div className="flex items-center relative">
             <div>
@@ -78,12 +79,10 @@ const Home = () => {
         <div className="container mx-auto">
           <div className="w-full flex justify-center">
             <div className="lg:w-1/2">
-              <h3 className="text-center py-3 font-inter text-xl md:text-2xl font-semibold">
-                Our Best Service
-              </h3>
-              <h1 className="text-center font-semibold font-lora-font text-2xl md:text-5xl">
-                Unlocking The Potential Of Data With Ai
-              </h1>
+              <Heading
+                subTitle=" Our Best Service"
+                heading=" Unlocking The Potential Of Data With Ai"
+              />
             </div>
           </div>
 
@@ -155,7 +154,7 @@ const Home = () => {
               </div>
             </div>
             <div className="">
-            <div className="box-1  bg-white p-6 lg:ps-16 lg:pb-10 lg:pt-10 group hover:bg-text-website hover:text-white hover:duration-300 relative ">
+              <div className="box-1  bg-white p-6 lg:ps-16 lg:pb-10 lg:pt-10 group hover:bg-text-website hover:text-white hover:duration-300 relative ">
                 <div>
                   <h3 className="text-2xl font-lora-font">AI Consult</h3>
                   <p className="my-4 text-xl font-inter">
@@ -219,6 +218,69 @@ const Home = () => {
       {/* Our Best Service end */}
 
       {/* WORK GALLERY start */}
+
+      <div className="w-full py-10 md:py-24">
+        <div className="container mx-auto">
+          <div className="w-full flex justify-center">
+            <div className="lg:w-1/2">
+              <Heading
+                subTitle="WORK GALLERY"
+                heading="Artificial Intelligence Real Results"
+              />
+            </div>
+          </div>
+          <div className="grid md:grid-cols-2 gap-4 lg:grid-cols-3">
+            <div className="md:col-span-2 ">
+              <div className="overflow-hidden">
+                <img
+                  src={assets.result1}
+                  className="rounded-md w-full transition-transform duration-500 ease-in-out hover:scale-105"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="">
+              <div className="">
+                <div className="overflow-hidden">
+                  <img
+                    src={assets.result2}
+                    className="rounded-md w-full transition-transform duration-500 ease-in-out hover:scale-105"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="">
+              <div className="overflow-hidden">
+                <img
+                  src={assets.result2}
+                  className="rounded-md w-full transition-transform duration-500 ease-in-out hover:scale-105"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="">
+              <div className="overflow-hidden">
+                <img
+                  src={assets.result4}
+                  className="rounded-md w-full transition-transform duration-500 ease-in-out hover:scale-105"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="">
+              <div className="">
+                <img
+                  src={assets.result3}
+                  className="rounded-md w-full  -mt-48  transition-transform duration-500 ease-in-out hover:scale-105"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* WORK GALLERY end */}
 
       {/* ABOUT COMPANY start */}
