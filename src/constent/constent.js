@@ -30,9 +30,22 @@ import ai3 from "../assets/3.svg";
 import ai4 from "../assets/4.svg";
 import ai5 from "../assets/5.svg";
 import ai6 from "../assets/6.svg";
-
+import cyber from "../assets/cyber.png";
+import synapse from "../assets/synapse.png";
+import boat from "../assets/boat.png";
+import Innovation from "../assets/Innovation.svg";
+import capability from "../assets/Capabilities.svg";
+import assement from "../assets/assement.svg";
+import comming from "../assets/comming_soon.jpg"
 export const assets = {
   bgTech,
+  comming,
+  Innovation,
+  capability,
+  assement,
+  cyber,
+  synapse,
+  boat,
   testimonialBg,
   team3,
   team2,
@@ -88,3 +101,7 @@ export const navLinks = [
     path: "/contact",
   },
 ];
+
+
+
+

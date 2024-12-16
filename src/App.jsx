@@ -10,7 +10,7 @@ import Services from "./pages/Services";
 
 const App = () => {
   return (
-    <div className="w-full relative">
+    <div className="">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

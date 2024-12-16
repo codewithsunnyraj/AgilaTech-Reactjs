@@ -11,17 +11,17 @@ const Navbar = () => {
     setClose(!close);
   };
   return (
-    <div className="w-full lg:py-16  lg:px-28">
-      <div className="hidden lg:flex justify-between items-center">
+    <div className="w-full lg:py-6 lg:px-28 relative">
+      <div className="hidden lg:my-6 my-2 lg:flex justify-between items-center">
         <div>
-          <img src={assets.logoNav} alt="" />
+          <img src={assets.logoNav} className="cursor-pointer max-w-[150px]" alt="" />
         </div>
         <div className="flex gap-8">
           {navLinks.map((items, index) => (
             <ul key={index}>
               <li>
                 <Link
-                  className="text-white font-semibold text-[20px] hover:text-blue-400 hover:duration-200 "
+                  className="text-white font-semibold text-[14px] hover:text-blue-400 hover:duration-200 "
                   to={items.path}
                 >
                   {items.title}
@@ -31,7 +31,7 @@ const Navbar = () => {
           ))}
         </div>
         <div>
-          <button className="bg-btn-nav flex justify-center items-center  text-white py-4 px-8 text-xl rounded-md">
+          <button className="bg-btn-nav flex justify-center items-center  text-white py-2 px-6 text-xl rounded-md">
             Get a Quotes <FaArrowRight className="ms-2 text-[16px]" />
           </button>
         </div>

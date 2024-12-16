@@ -8,7 +8,11 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'home-header':"url('./src/assets/hero-banner.png')"
+        'home-header':"url('./src/assets/hero-banner.png')",
+        'testimonial':"url('./src/assets/testimonial-bg2.png')",
+        'bg-tech':"url('./src/assets/bg-tech.png')",
+        'bg-footer':"url('./src/assets/footer-bg.png')"
+
       },
       backgroundColor:{
         'btn-nav':'#50AF9B',
@@ -46,8 +50,9 @@ export default {
         }
       },
       animation: {
-        'animate-x':'left-arrow 4d infinite',
+        'animate-x':'left-arrow 4s infinite',
         'animate-y': 'top-square 4s infinite', // Added duration
+        'animation-roatee':'transform: rotateY(180deg);'
       },
     },
   },
