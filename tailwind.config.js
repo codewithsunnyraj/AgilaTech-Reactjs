@@ -11,7 +11,8 @@ export default {
         'home-header':"url('./src/assets/hero-banner.png')",
         'testimonial':"url('./src/assets/testimonial-bg2.png')",
         'bg-tech':"url('./src/assets/bg-tech.png')",
-        'bg-footer':"url('./src/assets/footer-bg.png')"
+        'bg-footer':"url('./src/assets/footer-bg.png')",
+        'bg-common-all':"url('./src/assets/hero_bg_5.svg')"
 
       },
       backgroundColor:{
