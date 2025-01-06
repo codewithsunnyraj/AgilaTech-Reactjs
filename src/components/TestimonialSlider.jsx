@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 const TestimonialSlider = ({images}) => {
   return (
-    <div className="w-72 lg:w-[350px] my-4 md:my-0 group bg-white rounded-md relative min-h-[400px]">
+    <div className="w-72 lg:w-[350px] my-4 border-[1px] md:my-0 group bg-white rounded-md relative min-h-[400px]">
     <div className="relative">
       <img src={images} className="w-full rounded-t-md" alt="Team Member" />
       <div className="py-8">
@@ -15,9 +15,9 @@ const TestimonialSlider = ({images}) => {
       </div>
       {/* Social Icons */}
       <div className="social-icons justify-center absolute lg:bottom-32 opacity-0 group-hover:opacity-100 left-1/2 transform -translate-x-1/2 transition-opacity">
-        <div className="bg-text-website p-4 flex gap-3 rounded-md">
+        <div className="bg-text-website p-4 flex gap-6 cursor-pointer rounded-md">
           <FaFacebookF className="text-2xl text-white " />
-          <FaInstagram className="text-2xl text-white " />
+          <FaInstagram className="text-2xl  text-white " />
           <FaTwitter className="text-2xl text-white  " />
         </div>
       </div>

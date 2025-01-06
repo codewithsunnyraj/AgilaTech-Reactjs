@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
-import CommingSoon from '../components/CommingSoon';
+
 
 const Services = () => {
   return (
@@ -8,7 +8,7 @@ const Services = () => {
       <Helmet>
               <title>Services - Your Website</title>
             </Helmet>
-    <CommingSoon/>
+   
     </div>
   )
 }

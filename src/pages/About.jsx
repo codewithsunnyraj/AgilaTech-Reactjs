@@ -2,8 +2,14 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import HeaderAll from "../components/HeaderAll";
 import AboutComponent from "../components/AboutComponent";
-import { aboutAssets } from "../constent/constent";
+import { aboutAssets, assets } from "../constent/constent";
 import PartnerCard from "../components/PartnerCard";
+import Faq from "../components/Faq";
+import Card from "../components/Card";
+import TestimonialSlider from "../components/TestimonialSlider";
+import Counter from "../components/counter";
+import Form from "../components/Form";
+import SimpleCard from "../components/SimpleCard";
 const About = () => {
   return (
     <div className="w-full md:-mt-[210px]">
@@ -131,12 +137,141 @@ const About = () => {
       {/* CREATIVE SERVICES end */}
 
       {/* Faq section start */}
-        <div className="container mx-auto">
-          <div className="md:mx-32 mx-10">
-
+      <div className="container mx-auto bg-bg-faq bg-cover bg-center w-full">
+        <div className="md:mx-32 mx-10 ">
+          <div className="grid md:grid-cols-2 py-24">
+            <div className="flex items-center">
+              <div className="md:px-14 px-4 ">
+                <div>
+                  <p className="text-blue-700">SOME FAQ'S</p>
+                  <div>
+                    <h4 className="text-4xl font-semibold py-3 font-lora-font">
+                      Creating <span className="text-text-common">Digital</span>{" "}
+                      Masterpieces
+                    </h4>
+                    <p className="py-4">
+                      It is a long established fact that a reader will be distr
+                      acted bioiiy the end gail designa readable content of a
+                      page when looking.
+                    </p>
+                  </div>
+                </div>
+                <Faq />
+              </div>
+            </div>
+            <div className="flex md:justify-end relative">
+              <img src={aboutAssets.digital} className=" md:w-[500px]" alt="" />
+              <div>
+                <img
+                  src={assets.client}
+                  className="absolute z-10 animate-animate-y bottom-14 -right-14"
+                  alt=""
+                />
+              </div>
+            </div>
           </div>
         </div>
+      </div>
       {/* Faq section end */}
+
+      {/* our partner start */}
+      <div className="container mx-auto">
+        <div className="md:mx-32 mx-10">
+          <div>
+            <p className="text-center text-blue-700">MEET OUR EXPERTS</p>
+            <h3 className="text-4xl font-semibold font-lora-font py-3 text-center">
+              Your Partner In <span className="text-blue-700">Digital</span>{" "}
+              Success
+            </h3>
+          </div>
+          <div className="grid md:grid-cols-2 gap-4 lg:grid-cols-3">
+            <div className="">
+              <TestimonialSlider className="" images={assets.team1} />
+            </div>
+            <TestimonialSlider images={assets.team2} />
+            <TestimonialSlider images={assets.team3} />
+          </div>
+        </div>
+      </div>
+      {/* our partner end */}
+
+      {/* counter section start */}
+      <Counter />
+      {/* counter section end */}
+
+      {/* Form section start */}
+      <div className="container mx-auto mb-4 md:mb-14">
+        <div className="md:mx-32 mx-10 ">
+          <div className="flex relative">
+            <div className="md:-mt-20">
+              <img
+                src={aboutAssets.contactus}
+                className="md:w-[800px]"
+                alt=""
+              />
+              <img
+                src={aboutAssets.squaredot}
+                className="absolute -bottom-6 animate-animate-y -z-10 -left-6"
+                alt=""
+              />
+            </div>
+            <div className="md:-mt-6 relative">
+              <Form
+                subTitle="GET IN TOUCH"
+                heading="Bringing Your  To Life"
+                colourful="Vision"
+                description="For your car we will do everything advice design in us repairs and maintenance. We are the some preferred."
+                className="p-8 bg-white w-[550px] rounded-md shadow-md md:-ml-44"
+              />
+              <img
+                src={aboutAssets.dot}
+                className="absolute animate-animate-y right-0 bottom-8"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Form section end */}
+      {/* OUR SIMPLE PROCESS start */}
+      <div className="container mx-auto my-4 md:my-24">
+        <div className="md:mx-32 mx-10">
+          <div>
+            <p className="text-center text-blue-700">OUR SIMPLE PROCESS</p>
+            <h3 className="text-4xl font-semibold font-lora-font py-3 text-center">
+              World <span className="text-blue-700">Best Step</span> Our It
+              Process
+            </h3>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8 mt-3 md:mt-8 lg:grid-cols-4">
+            <SimpleCard
+              images={aboutAssets.software}
+              subTitle="work 1"
+              heading="Software Research"
+              description="Research ipsum dolor sit consec tetur sed diam in the aliquam tempor"
+            />
+            <SimpleCard
+              images={aboutAssets.program}
+              subTitle="work 2"
+              heading="Develope Software"
+              description="Research ipsum dolor sit consec tetur sed diam in the aliquam tempor"
+            />
+            <SimpleCard
+              images={aboutAssets.work}
+              subTitle="work 3"
+              heading="Create Programs"
+              description="Research ipsum dolor sit consec tetur sed diam in the aliquam tempor"
+            />
+            <SimpleCard
+              images={aboutAssets.develope}
+              subTitle="work 4"
+              heading="Shop software"
+              description="Research ipsum dolor sit consec tetur sed diam in the aliquam tempor"
+            />
+          </div>
+        </div>
+      </div>
+      {/* OUR SIMPLE PROCESS end */}
     </div>
   );
 };

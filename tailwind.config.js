@@ -12,7 +12,9 @@ export default {
         'testimonial':"url('./src/assets/testimonial-bg2.png')",
         'bg-tech':"url('./src/assets/bg-tech.png')",
         'bg-footer':"url('./src/assets/footer-bg.png')",
-        'bg-common-all':"url('./src/assets/hero_bg_5.svg')"
+        'bg-common-all':"url('./src/assets/hero_bg_5.svg')",
+        'bg-faq':"url('./src/assets/about/aboutus_bg.png')",
+        'counter-bg':"url('./src/assets/about/counter-bg.png')"
 
       },
       backgroundColor:{
@@ -20,7 +22,8 @@ export default {
          'light-green':'#50AF9B'
       },
       colors:{
-       'text-website':'#50AF9B'
+       'text-website':'#50AF9B',
+       "text-common":"#246BFD"
       },
       fontFamily:{
         'lora-font':'"Lora", serif',
@@ -48,7 +51,7 @@ export default {
           '100%': {
             transform: 'translateY(-5px)', // Corrected syntax
           },
-        }
+        },
       },
       animation: {
         'animate-x':'left-arrow 4s infinite',

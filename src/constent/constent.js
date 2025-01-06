@@ -44,7 +44,6 @@ import ambition from "../assets/about/ambition.png";
 import ambition2 from "../assets/about/ambition2.png";
 import bulb from "../assets/about/bulb.png";
 import circle from "../assets/about/circle.svg";
-import clients from "../assets/about/circle.svg";
 import contactus from "../assets/about/contactus.png";
 import content from "../assets/about/content_marketing.png";
 import develope from "../assets/about/develpoe.svg";
@@ -58,14 +57,21 @@ import squaredot from "../assets/about/square-dit.png";
 import triangleYellow from "../assets/about/triangle.png";
 import triangleblue from "../assets/about/triangle_blue.png";
 import work from "../assets/about/work.svg";
-
+import client from "../assets/client.png";
+import count1 from "../assets/about/count1.svg";
+import count2 from "../assets/about/count2.svg";
+import count3 from "../assets/about/count3.svg";
+import count4 from "../assets/about/count4.svg";
 export const aboutAssets = {
   aboutus,
   ambition,
   ambition2,
   bulb,
   circle,
-  clients,
+  count1,
+  count2,
+  count3,
+  count4,
   contactus,
   content,
   work,
@@ -83,6 +89,7 @@ export const aboutAssets = {
 
 export const assets = {
   bgTech,
+  client,
   comming,
   Innovation,
   capability,
@@ -143,5 +150,26 @@ export const navLinks = [
   {
     title: "Contact us",
     path: "/contact",
+  },
+];
+
+export const faq = [
+  {
+    id: 0,
+    title: "What services do you offer?",
+    paragraph:
+      "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, search for 'lorem ipsum' will uncover",
+  },
+  {
+    id: 1,
+    title: "How long does it take for you to complete a project?",
+    paragraph:
+      "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, search for 'lorem ipsum' will uncover",
+  },
+  {
+    id: 2,
+    title: "How much does it cost to work with your agency?",
+    paragraph:
+      "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, search for 'lorem ipsum' will uncover",
   },
 ];
