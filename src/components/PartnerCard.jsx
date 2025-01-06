@@ -2,7 +2,7 @@ import React from "react";
 
 const PartnerCard = ({ images, title, paragraph, buttonText }) => {
   return (
-    <div className="shadow-lg p-6 lg:p-10">
+    <div className="shadow-sm hover:shadow-md hover:rounded-md hover:duration-300 p-6 lg:p-10">
       <div>
         <div className="flex justify-center">
           <img src={images} alt="" />

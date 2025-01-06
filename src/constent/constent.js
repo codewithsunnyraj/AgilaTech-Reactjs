@@ -173,3 +173,12 @@ export const faq = [
       "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, search for 'lorem ipsum' will uncover",
   },
 ];
+
+export const cardContent = [
+  "Mobile App Development",
+  "Branding & Identity",
+  "Email Marketing & Automation",
+  "E-commerce Solutions",
+  "Social Media Management",
+  "Video & Animation Production",
+];
