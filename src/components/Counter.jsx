@@ -6,7 +6,7 @@ const Counter = () => {
   return (
     <div className="bg-counter-bg py-32 bg-cover px-14">
       <div className="grid md:grid-cols-2 lg:grid-cols-4">
-        <div className="flex justify-center group">
+        <div className="md:flex my-10 md:my-4 lg:my-0 justify-center group">
           <div>
             <div className="group-hover:scale-125 hover:duration-300 transition-all">
               <img src={aboutAssets.count1} alt="" />
@@ -20,7 +20,7 @@ const Counter = () => {
           </div>
         </div>
         <div>
-          <div className="flex justify-center group">
+          <div className="md:flex my-10 md:my-4 lg:my-0 justify-center group">
             <div>
               <div>
                 <img
@@ -39,7 +39,7 @@ const Counter = () => {
           </div>
         </div>
         <div>
-          <div className="flex justify-center group">
+          <div className="md:flex my-10 md:my-4 lg:my-0  justify-center group">
             <div>
               <div>
                 <img
@@ -58,7 +58,7 @@ const Counter = () => {
           </div>
         </div>
         <div>
-          <div className="flex justify-center group">
+          <div className="md:flex my-10 md:my-4 lg:my-0 justify-center group">
             <div>
               <div>
                 <img

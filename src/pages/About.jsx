@@ -18,13 +18,13 @@ const About = () => {
       </Helmet>
       <HeaderAll pages="About us" />
       <div className="py-10 md:py-24  container mx-auto">
-        <div className="md:mx-32 mx-10">
+        <div className="lg:mx-32 md:mx-14 mx-4">
           <div className="grid lg:grid-cols-2">
             <div className="relative">
               <div>
                 <img
                   src={aboutAssets.aboutus}
-                  className="lg:w-[450px] w-full"
+                  className="lg:w-[450px] w-full "
                   alt=""
                 />
                 <div>
@@ -58,7 +58,7 @@ const About = () => {
                   typesetting industry Loreaim Ipsum has been the industry's
                   standard dummy
                 </p>
-                <div className="grid grid-cols-2 gap-4 md:gap-10 pt-8 md:pt-14">
+                <div className="grid md:grid-cols-2 gap-8 md:gap-10 pt-8 md:pt-14">
                   <div>
                     <div>
                       <img src={aboutAssets.ambition} alt="" />
@@ -97,7 +97,7 @@ const About = () => {
       </div>
       {/* CREATIVE SERVICES start */}
       <div className="container mx-auto">
-        <div className="md:mx-32 mx-10">
+        <div className="lg:mx-32 md:mx-20 mx-10">
           <div>
             <p className="text-center text-blue-700">CREATIVE SERVICES</p>
             <h3 className="text-4xl font-semibold font-lora-font py-3 text-center">
@@ -138,10 +138,10 @@ const About = () => {
 
       {/* Faq section start */}
       <div className="container mx-auto bg-bg-faq bg-cover bg-center w-full">
-        <div className="md:mx-32 mx-10 ">
-          <div className="grid md:grid-cols-2 py-24">
+        <div className="lg:mx-32 mx-10 ">
+          <div className="grid lg:grid-cols-2 py-24">
             <div className="flex items-center">
-              <div className="md:px-14 px-4 ">
+              <div className="md:px-14 ">
                 <div>
                   <p className="text-blue-700">SOME FAQ'S</p>
                   <div>
@@ -159,12 +159,12 @@ const About = () => {
                 <Faq />
               </div>
             </div>
-            <div className="flex md:justify-end relative">
+            <div className="flex md:justify-end my-5 lg:my-0 relative">
               <img src={aboutAssets.digital} className=" md:w-[500px]" alt="" />
               <div>
                 <img
                   src={assets.client}
-                  className="absolute z-10 animate-animate-y bottom-14 -right-14"
+                  className="absolute z-10 animate-animate-y bottom-14 -right-6 md:-right-14"
                   alt=""
                 />
               </div>
@@ -176,7 +176,7 @@ const About = () => {
 
       {/* our partner start */}
       <div className="container mx-auto">
-        <div className="md:mx-32 mx-10">
+        <div className="lg:mx-32 md:mx-20 mx-10">
           <div>
             <p className="text-center text-blue-700">MEET OUR EXPERTS</p>
             <h3 className="text-4xl font-semibold font-lora-font py-3 text-center">
@@ -184,7 +184,7 @@ const About = () => {
               Success
             </h3>
           </div>
-          <div className="grid md:grid-cols-2 gap-4 lg:grid-cols-3">
+          <div className="grid md:grid-cols-2 gap-6 lg:grid-cols-3">
             <div className="">
               <TestimonialSlider className="" images={assets.team1} />
             </div>
@@ -200,9 +200,9 @@ const About = () => {
       {/* counter section end */}
 
       {/* Form section start */}
-      <div className="container mx-auto mb-4 md:mb-14">
-        <div className="md:mx-32 mx-10 ">
-          <div className="flex relative">
+      <div className="container mx-auto mb-20 md:mb-14">
+        <div className="lg:mx-32  mx-4">
+          <div className="md:flex relative">
             <div className="md:-mt-20">
               <img
                 src={aboutAssets.contactus}
@@ -221,11 +221,11 @@ const About = () => {
                 heading="Bringing Your  To Life"
                 colourful="Vision"
                 description="For your car we will do everything advice design in us repairs and maintenance. We are the some preferred."
-                className="p-8 bg-white w-[550px] rounded-md shadow-md md:-ml-44"
+                className="p-8 bg-white md:w-[550px] rounded-md shadow-md md:-ml-44"
               />
               <img
                 src={aboutAssets.dot}
-                className="absolute animate-animate-y right-0 bottom-8"
+                className="absolute animate-animate-y sm:-bottom-6 md:-bottom-24 md:right-0 -z-10 lg:z-10 right-0   lg:bottom-8"
                 alt=""
               />
             </div>
@@ -235,7 +235,7 @@ const About = () => {
       {/* Form section end */}
       {/* OUR SIMPLE PROCESS start */}
       <div className="container mx-auto my-4 md:my-24">
-        <div className="md:mx-32 mx-10">
+        <div className="lg:mx-32 md:mx-20 mx-10">
           <div>
             <p className="text-center text-blue-700">OUR SIMPLE PROCESS</p>
             <h3 className="text-4xl font-semibold font-lora-font py-3 text-center">

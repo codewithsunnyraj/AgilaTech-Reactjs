@@ -6,23 +6,23 @@ const Form = ({subTitle,heading,colourful,description,className}) => {
       <div>
         <p className='text-blue-500'>{subTitle}</p>
         <div>
-            <h3 className='text-3xl font-lora-font py-4 font-semibold'>Bringing Your <span className='text-blue-500'>Vision</span> To Life</h3>
-            <p className='text-slate-500'>{description}</p>
+            <h3 className='md:text-3xl text-xl font-lora-font py-4 font-semibold'>Bringing Your <span className='text-blue-500'>Vision</span> To Life</h3>
+            <p className='text-slate-500 pb-6 md:pb-0'>{description}</p>
         </div>
-        <div className='flex my-6 gap-6 '>
-           <div className=' w-1/2'>
-            <input type="text" placeholder='Your Name' className='border-[1px] focus:outline-none p-3 rounded-md' />
+        <div className='md:flex md:my-6 gap-6 '>
+           <div className='  md:w-1/2'>
+            <input type="text" placeholder='Your Name' className='border-[1px] focus:outline-none w-full p-3 rounded-md' />
            </div>
-           <div className=' w-1/2'>
-            <input type="email" placeholder='Your Email' className='border-[1px] focus:outline-none  p-3 rounded-md' />
+           <div className='  md:w-1/2'>
+            <input type="email" placeholder='Your Email' className='border-[1px] focus:outline-none w-full my-3 md:my-0  p-3 rounded-md' />
            </div>
         </div>
-        <div className='flex my-6 gap-6 '>
-           <div className=' w-1/2'>
-            <input type="text" placeholder='Your Phone' className='border-[1px] focus:outline-none p-3 rounded-md' />
+        <div className='md:flex md:my-6 gap-6 '>
+           <div className=' md:w-1/2'>
+            <input type="text" placeholder='Your Phone' className='border-[1px] focus:outline-none w-full p-3 rounded-md' />
            </div>
-           <div className=' w-1/2'>
-            <input type="text" placeholder='Your Subject' className='border-[1px] focus:outline-none  p-3 rounded-md' />
+           <div className=' md:w-1/2'>
+            <input type="text" placeholder='Your Subject' className='border-[1px] focus:outline-none w-full my-3 md:my-0 p-3 rounded-md' />
            </div>
         </div>
         <div>
