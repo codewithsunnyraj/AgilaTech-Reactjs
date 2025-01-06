@@ -17,7 +17,7 @@ const PricingCard = ({ price, title }) => {
             <div key={index}>
               <div className="flex items-center my-5 gap-2 ">
                 <RiCheckboxCircleFill className="text-xl group-hover:text-white" />
-                <p className="text-xl group-hover:text-white font-lora-font">{items}</p>
+                <p className="md:text-xl group-hover:text-white font-lora-font">{items}</p>
               </div>
             </div>
           ))}

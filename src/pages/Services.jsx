@@ -14,7 +14,7 @@ const Services = () => {
       <HeaderAll pages="Services" />
       {/* CREATIVE SERVICES start */}
       <div className="py-10 md:py-12 container mx-auto ">
-        <div className="md:mx-32 mx-10">
+        <div className=" lg:mx-32 md:mx-16 mx-10">
           <div>
             <p className="text-center text-blue-700">CREATIVE SERVICES</p>
             <h3 className="text-4xl font-semibold font-lora-font py-3 text-center">
@@ -80,7 +80,7 @@ const Services = () => {
               Success
             </h3>
           </div>
-          <div className="grid md:grid-cols-2 gap-8 lg:grid-cols-3 my-3 md:my-8">
+          <div className="grid  gap-8 lg:grid-cols-3 my-3 md:my-8">
               <div>
                 <PricingCard title="Started" price="$19" />
               </div>

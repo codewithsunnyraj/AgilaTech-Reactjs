@@ -12,7 +12,7 @@ const ContactUs = () => {
       </Helmet>
       <HeaderAll pages="Contact Us" />
       <div className="container py-10 md:py-12 mx-auto">
-        <div className="md:mx-32 mx-4">
+        <div className="lg:mx-32 md:mx-16 mx-4">
           <div className="grid lg:grid-cols-2">
             <div className="order-2 sm:order-2 lg:order-none">
               <img src={contactAsset.contact} alt="" />
