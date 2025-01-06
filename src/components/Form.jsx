@@ -14,7 +14,7 @@ const Form = ({subTitle,heading,colourful,description,className}) => {
             <input type="text" placeholder='Your Name' className='border-[1px] focus:outline-none p-3 rounded-md' />
            </div>
            <div className=' w-1/2'>
-            <input type="text" placeholder='Your Name' className='border-[1px] focus:outline-none  p-3 rounded-md' />
+            <input type="email" placeholder='Your Email' className='border-[1px] focus:outline-none  p-3 rounded-md' />
            </div>
         </div>
         <div className='flex my-6 gap-6 '>

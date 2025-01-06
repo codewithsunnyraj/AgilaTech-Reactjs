@@ -62,6 +62,7 @@ import count1 from "../assets/about/count1.svg";
 import count2 from "../assets/about/count2.svg";
 import count3 from "../assets/about/count3.svg";
 import count4 from "../assets/about/count4.svg";
+import contact from "../assets/contact/contact.png";
 export const aboutAssets = {
   aboutus,
   ambition,
@@ -182,3 +183,7 @@ export const cardContent = [
   "Social Media Management",
   "Video & Animation Production",
 ];
+
+export const contactAsset = {
+  contact,
+};
